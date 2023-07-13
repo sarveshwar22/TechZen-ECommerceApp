@@ -1,5 +1,0 @@
-# wrangler.toml
-
-[build]
-command = "npm install && npm run build && NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-output_dir = "build"
