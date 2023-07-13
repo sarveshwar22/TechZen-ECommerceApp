@@ -125,7 +125,6 @@ router.post("/login",async(req,res)=>{
 })
 
 // add to cart api
-
 router.post("/addcart/:id", authenticate, async(req,res)=>{
     try {
         const {id} = req.params;
