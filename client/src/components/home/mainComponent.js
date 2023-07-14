@@ -14,7 +14,9 @@ const mainComponent = () => {
             </div>
             <div className="right_slide">
                 <h3>Happy Independence Day</h3>
-                <img src='https://upload.wikimedia.org/wikipedia/commons/3/37/Flag_India.svg' />
+                <img src='https://upload.wikimedia.org/wikipedia/commons/3/37/Flag_India.svg' alt='img2'/>
+                
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href='#'>Check out our new products</a>
             </div>
         </div>

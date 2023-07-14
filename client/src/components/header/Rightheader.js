@@ -24,6 +24,7 @@ const Rightheader = ({logclose,logoutuser}) => {
 
     const imgd = "https://upload.wikimedia.org/wikipedia/commons/3/37/Flag_India.svg"
 
+  // eslint-disable-next-line no-unused-vars
     const { account, setAccount } = useContext(LoginContext);
 
 //  this is left drawer bt name is right header

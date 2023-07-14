@@ -6,6 +6,8 @@ import {ToastContainer,toast} from "react-toastify";
 
 const Option = ({deletedata,get}) => {
 
+  
+  // eslint-disable-next-line no-unused-vars
   const {account,setAccount} = useContext(LoginContext)
 
 

@@ -38,7 +38,6 @@ const NavBar = () => {
     });
 
     const data = await res.json();
-    // console.log(data);
 
     if (res.status !== 201) {
         console.log("first login");
@@ -57,6 +56,8 @@ const logoutuser = async () => {
         },
         credentials: "include"
     });
+    
+  // eslint-disable-next-line no-unused-vars
     const data2 = await res2.json();
         // console.log(data2);
 
@@ -85,6 +86,7 @@ const handledrclose = ()=>{
 
 useEffect(() => {
     getdetailsvaliduser()
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 
   return (

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { ListItem } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 
@@ -8,11 +9,13 @@ const [price,setPrice] = useState(0);
 useEffect(()=>{
 
   totalAmount();
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[item])
 
 const totalAmount = ()=>{
 
   let price = 0;
+  // eslint-disable-next-line array-callback-return
   item.map((i)=>{
     price+=i.price.cost;
   })
